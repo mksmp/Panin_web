@@ -1,7 +1,65 @@
 .form-group{
     margin-bottom: 15px;
+
 }
 
 body {
+    font-family: 'PT Sans', sans-serif;
     background-color: #ddbdbd;
+    text-align: center;
+}
+
+.row {
+    width: 400px;
+    margin-left: 7.5%;
+    margin-right: auto;
+}
+
+.navbar {
+    text-align: center;
+}
+
+.btn-primary {
+    background-color: white;
+    color: black;
+}
+
+.btn-primary:hover {
+    background-color: rgb(75, 71, 71);
+    color: white;
+}
+
+.row-button {
+    /* width: 400px; */
+    /* margin-left: 7.5%; */
+    margin-right: 15%;
+}
+
+.first-class {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+    width: max-content;
+}
+
+.content {
+    margin-top: 17%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    width: max-content;
+}
+
+.auth-1 {
+    padding-bottom: 20px;
+}
+
+.offset-sm-2 {
+    color: white;
+}
+
+footer {
+    margin-bottom: 75px;
 }
