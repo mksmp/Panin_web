@@ -6,26 +6,129 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;1,100;1,300&display=swap"
+        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=PT+Serif:wght@700&display=swap" rel="stylesheet">
     <title>News</title>
 </head>
 
-<header>
-    <img src="" alt="">
-    <ul class="container">
-        <!-- Navigation item -->
-        <li>
-            <a href="#">НаХуй</a>
-        </li>
-    
-        <!-- Navigation item that sticks to the right -->
-        <li class="container__item--right">
-            <a href="#">Даб Даб</a>
-        </li>
-    </ul>
-</header>
-
 <body>
+    <header class="header">
+        <ul class="container-navigation">
+            <li class="container__item--left"><a href="#"><img
+                        src="https://sun9-45.userapi.com/impg/-n4vBpGJROvkdLZMiYpbHm4iz1teY84ukKnODQ/R8xX1l5WoPs.jpg?size=392x160&quality=96&sign=32355886906c56a4f86c579917f1ca11&type=album"
+                        alt="Глаз" class="img_header_eye"></a></li>
+            <li class="container__item--left"><img
+                    src="https://sun9-36.userapi.com/impg/L2cgqen8Uz0Dh-oglFQMD7OXZOodMNK84klyuA/_yiG3FhqfIw.jpg?size=164x1858&quality=96&sign=27cc975f2e72d662d787062bcd1a5a17&type=album"
+                    alt="Черта" class="img_header_stick"></li>
+            <!-- Navigation item -->
+            <li class="container__item--left"><a href="#">God's Eye</a></li>
 
+            <div class="btn-search">
+                <form>
+                    <input type="text" placeholder="Искать здесь...">
+                    <button type="submit"></button>
+                </form>
+            </div>
+
+            <li class="container__item--right"><a href="#"><img
+                        src="https://www.pinclipart.com/picdir/big/189-1895786_big-image-transparent-background-notification-icon-clipart.png"
+                        alt="Уведомления" class="img_header_notification"></a></li>
+            <!-- Navigation item that sticks to the right -->
+            <li class="container__item--right"><a href="#"><img
+                        src="https://www.pinclipart.com/picdir/big/543-5434783_user-clipart-png-download.png"
+                        alt="Профиль" class="img_header_profile"></a></li>
+        </ul>
+    </header>
+
+    <main>
+        <div class="container flex-wrapper">
+            <aside class="sidebar">
+                <form>
+                    <section class="sidebar-section">
+                        <header class="sidebar-header">
+                            <ul class="container-navbar">
+                                <li class="container-navbar_first-item"><a href="#">Лента</a></li>
+                                <li class="container-navbar_last-item"><a href="#">Видео</a></li>
+                                <hr width="100%" color="#f0f0f0" size="1" align="left">
+                                <li class="theme-of-feed"><a href="#">Кино</a></li>
+                                <li class="theme-of-feed"><a href="#">Спорт</a></li>
+                                <li class="theme-of-feed"><a href="#">Наука</a></li>
+                                <li class="theme-of-feed"><a href="#">Технологии</a></li>
+                                <li class="theme-of-feed"><a href="#">Инвестиции</a></li>
+                                <li class="theme-of-feed last-theme-of-feed"><a href="#">Политика</a></li>
+                                <hr width="100%" color="#f0f0f0" size="1" align="left">
+                                <li class="download-app"><a href="#">Скачать приложение</a></li>
+                                <li class="advert"><a href="#">Рекламодателям</a></li>
+                            </ul>
+                        </header>
+                    </section>
+                </form>
+            </aside>
+
+            <div class="page-content">
+                <h2 class="feed-header">Лента рекомендаций</h2>
+                <div class="feed-list">
+                    <div class="feed-card-list">
+                        <div class="feed-card">
+                            <div class="feed-card-header">
+                                <div class="feed-card-header-image">
+                                    <img src="https://fortbuilding.ru/uploads/all/8a/94/f3/8a94f364704b29dcd56a52d84fd97fa6.jpg"
+                                        alt="News">
+                                </div>
+                                <div class="feed-card-header-text">
+                                    <p>BreakNews</p>
+                                </div>
+                            </div>
+                                <div class="feed-card-image">
+                                    <img src="https://sun9-70.userapi.com/impg/hGU-8UFSxOrBFMqaekane75l95pkSTaHl-3g5A/0g4xs7CuU4o.jpg?size=809x527&quality=96&sign=701bbef02caad85a9e68eb58fc060fad&type=album"
+                                        alt="ВОВА">
+                                    <div class="feed-card-text">
+                                        <p>Олег Нечипоренко в эту пятницу выпускает с Тейпом...</p>
+                                    </div>
+                                    <div class="feed-card-details">
+                                        <p>Опубликовано: сегодня ночью в 3:50</p>
+                                    </div>
+                                </div>
+                            
+                        </div>
+                    </div>
+                    <div class="feed-card-list">
+                        <div class="feed-card">
+                            <div class="feed-card-header">
+                                <div class="feed-card-header-image">
+                                    <img src="https://sun9-78.userapi.com/impg/sUIIm5p9N_OhfAgfzQOg9qVeSWe2DMY0EJpuiA/qhUa3U71xkE.jpg?size=666x666&quality=96&sign=87786f111afac21ec298b67ab7c19ceb&type=album"
+                                        alt="SPic">
+                                </div>
+                                <div class="feed-card-header-text">
+                                    <p>Strange picture</p>
+                                </div>
+                            </div>
+                            <div class="feed-card-image">
+                                <img src="https://sun9-2.userapi.com/impg/o5TISz_bBVmv0RfdcMRHhEEBFqd7623aj4TEiA/D38Qh3ZbYjI.jpg?size=936x602&quality=96&sign=27b470a720b9b249eab1d756ec3a1a27&type=album"
+                                    alt="ВОВА">
+                                <div class="feed-card-text">
+                                    <p>Long loading...</p>
+                                </div>
+                                <div class="feed-card-details">
+                                    <p>Опубликовано: сегодня ночью в 3:50</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+    </main>
 </body>
 
 </html>
