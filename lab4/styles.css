@@ -1,0 +1,61 @@
+html {
+    height: 100%;
+}
+
+body {
+    display: flex;
+    height: 100%;
+}
+
+body ul {
+    padding: 0;
+    margin-top: 0;
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    align-items: center;
+    align-content: center;
+}
+
+body li {
+    flex-direction: row;
+    list-style: none;
+    display: flex;
+    height: 100%;
+    align-items: center;
+    align-content: center;
+}
+
+body a {
+    text-decoration: none;
+    color: black;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    font-size: 46px;
+}
+
+.tic-tac {
+    
+}
+
+
+.calc {
+
+}
+
+.hover-effect { 
+    -webkit-transition: all 0.5s ease; 
+    -moz-transition: all 0.5s ease; 
+    transition: all 0.5s ease; 
+   } 
+    
+   .hover-effect:hover { 
+    -webkit-transform: scale(0.85); 
+    -moz-transform: scale(0.85); 
+    -o-transform: scale(0.85); 
+    transform: scale(0.85); 
+    -webkit-transition: all 0.5s ease; 
+    -moz-transition: all 0.5s ease; 
+    transition: all 0.5s ease; 
+    color: black; 
+   }
