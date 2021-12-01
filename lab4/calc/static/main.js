@@ -88,13 +88,13 @@ function compile(str) {
     }
     return out.join(' ');
 }
-// Функция evaluate принимает один аргумент — строку 
+// Функция evaluate принимает один аргумент — строку  4645
 // с арифметическим выражением, записанным в обратной 
 // польской нотации. Возвращаемое значение — результат 
 // вычисления выражения. Выражение может включать 
 // действительные числа и операторы +, -, *, /. 
 // Вам нужно реализовать эту функцию 
-// (https://ru.wikipedia.org/wiki/Обратная_польская_запись#Вычисления_на_стеке). 
+// (https://ru.wikipedia.org/wiki/Обратная_польская_запись#Вычисления_на_стеке).
 
 function evaluate(str) {
     let stackdigit = [];
@@ -154,9 +154,9 @@ function evaluate(str) {
 function clickHandler(event) {
     let element = event.target.innerHTML;
     let elemClass = event.target.className;
-    let digitsList = document.getElementsByClassName('digit');
-    let bracketList = document.getElementsByClassName('bracket');
-    let operationList = document.getElementsByClassName('operation');
+    let digitsList = document.querySelectorAll('.digit');
+    let bracketList = document.querySelectorAll('.bracket');
+    let operationList = document.querySelectorAll('.operation');
     let board = document.getElementById('board');
     for (let i = 0; i < digitsList.length; i++) {
         if (element == digitsList[i].innerHTML) {
